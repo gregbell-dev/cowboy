@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roadside Cowboy</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #0d2149;
+      background-color: #fff;
+    }
+
+    .top-banner {
+      background-color: #f9c52b;
+      text-align: center;
+      padding: 30px 20px 15px;
+    }
+
+    .top-banner img {
+      width: 250px;
+    }
+
+    .slogan {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #003366;
+      margin-top: 10px;
+    }
+
+    .call-now-banner {
+      background-color: #c62828;
+      color: #f9c52b;
+      padding: 15px;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 30px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .section h2 {
+      color: #003366;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 20px;
+      text-align: center;
+      color: #003366;    /* Deep blue */
+      font-weight: bold; 
+    }
+
+    .service {
+      width: 120px;
+      margin-bottom: 20px;
+    }
+
+    .service img {
+      width: 60px;
+      margin-bottom: 10px;
+    }
+
+    .map {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .map iframe {
+      width: 100%;
+      max-width: 600px;
+      height: 300px;
+      border: 1px solid #ccc;
+    }
+
+    @media (max-width: 600px) {
+      .service {
+        width: 100%;
+      }
+
+      .call-now-banner {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Yellow Banner -->
+  <div class="top-banner">
+    <img src="logo.png" alt="Roadside Cowboy Logo" />
+    <div class="slogan">Fast, Friendly Roadside Help When You Need It Most.<br>We Come to You - Fast!</div>
+  </div>
+
+  <!-- Top Call Now Banner -->
+  <div class="call-now-banner">
+    CALL NOW: (214) 881- 4141
+  </div>
+
+  <!-- Main Content -->
+  <div class="section">
+    <h2>Serving the Dallas–Fort Worth Area with Trusted Roadside Assistance</h2>
+    <p>
+      Whether you're locked out, out of gas, or have a flat — we're the ones to call.
+      We show up fast, get the job done, and get you back on the road.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service">
+        <img src="battery-icon.png" alt="Jump Starts" />
+        <div>Jump Starts</div>
+      </div>
+      <div class="service">
+        <img src="tire-icon.png" alt="Flat Tire Change" />
+        <div>Flat Tire Change</div>
+      </div>
+      <div class="service">
+        <img src="lock-icon.png" alt="Lockouts" />
+        <div>Lockouts</div>
+      </div>
+      <div class="service">
+        <img src="fuel-icon.png" alt="Fuel Delivery" />
+        <div>Fuel Delivery</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section map">
+    <h2>Areas We Serve</h2>
+    <p>Primarily serving Dallas, Fort Worth, Arlington, Irving, Grand Prairie, Mesquite, and nearby cities.</p>
+    <img src="service-area-map.png" alt="DFW Service Area Map" style="width:100%; max-width:600px; border:1px solid #ccc;" />
+  </div>
+
+  <!-- Bottom Call Now Banner -->
+  <div class="call-now-banner">
+    CALL NOW: (214) 881- 4141
+  </div>
+
+</body>
+</html>
